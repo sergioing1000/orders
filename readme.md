@@ -22,11 +22,11 @@ This service is part of a microservices system exposed through an Ingress contro
                         ▼
                     Ingress
                         │
-    ┌───────────────┬───────────────┬───────────────┐
-    │               │               │               |
-    │               │               │               |
-    ▼               ▼               ▼               ▼
-Inventario       Orders          Sales          Service
+        ┌───────────────┬───────────────┬───────────────┐
+        │               │               │               |
+        │               │               │               |
+        ▼               ▼               ▼               ▼
+    Inventario       Orders          Sales          Service
 
 
 The **Orders Service** processes order creation requests and coordinates with other services when required.
